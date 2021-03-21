@@ -4,8 +4,7 @@
    /* background-color: red; */
 }
 #about-container-inner{
-    height: 100%;
-    grid-row-gap: 2em;
+    grid-row-gap: 1em;
     grid-template-rows: auto   1fr;
    /* background-color: green; */
    display:grid;
@@ -68,8 +67,7 @@
 .art-c1-content{
     display: grid;
     grid-template-columns: 3fr 4fr;
-    grid-column-gap: 2em;
-    height: 50%;
+    grid-column-gap: 1em;
 }
 .left {
     background-image: url('../img/113010.jpg');
@@ -115,7 +113,6 @@ margin: 20px 0px;
 }
 /*footer start */
 .top-footer{
-    margin-top: 500px;
     background-color: #e7e7e7;
 }
 .footer-inner{
