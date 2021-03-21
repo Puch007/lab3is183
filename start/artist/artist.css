@@ -1,68 +1,5 @@
 #about-container{
     height: 100%;
-   /* background-color: red; */
-}
-#about-container-inner{
-    height: 100%;
-    grid-row-gap: 2em;
-    grid-template-rows: auto   1fr;
-   /* background-color: green; */
-   display:grid;
-    width: 80%;
-   margin: 0px auto; 
-}
-
-.top-nav{
-    display: grid;
-    grid-template-columns: 1fr auto ;
-    background-color:#222   ;
-   border-color: #080808; 
-   height: 55px;
-   border-radius: 4px;
-   align-items: center; 
-   padding: 1em;
-}
-.main-nav{
-    border: 1px solid white;
-}
-.welcome-txt{
-    color: #FFF;
-}
-.top-nav-item{
-    list-style-type: none;
-
-
-}
-.top-nav-item  li {
-    display: inline;
-}
-.top-nav-item  li  a{
-    color: white;
-    padding: 5px;
-
-
-}
-.logo-txt{
-    font-size: 1.5em !important;
-    font-weight: bold;
-}
-.white{
-    background-color: #FFF !important;
-
-}
-.banner{
-    height: 340px;
-    border-radius: 10px;
-    background-image: url('../img/whistler.jpg');
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: 50% 14%;
-    color: white;
-    padding: 3em;
-}
-
-#about-container{
-    height: 100%;
     overflow:auto;
    /* background-color: red; */
 }
@@ -125,7 +62,6 @@
 }
 .art-content {
     display: grid;
-    grid-template-columns: 3fr 1fr;
 }
 .art-c1-content{
     display: grid;
@@ -207,3 +143,28 @@ ul.footer-list > li > img {
 }
 
 /* footer end */
+
+/* art container grid*/
+
+.art-container-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr;
+    
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    justify-items: center;
+}
+
+.artist-card{
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+h2.small {
+    font-size: 1.5em;
+    padding: 20px 0px 10px;
+}
+
+/* art containter grid end*/
